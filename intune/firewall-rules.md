@@ -2,7 +2,7 @@
 
 Configure Windows Defender Firewall rules straight from the Intune console. To get started, open the *Device Configuration* workload,then create a new profile. Choose *Windows 10* as the platform, and *Endpoint Protection* as the profile type. Select the Windows Defender Firewall chevron. Add a firewall rule to this new *Endpoint Protection* profile using the *Add* button at the bottom of the blade.
 
-![Firewall rules in device configuration](/media/firewallrules.PNG)
+![Firewall rules in device configuration](/intune/media/firewallrules.PNG)
 
 **Important!** A single *Endpoint Protection* profile may contain up to a maximum of 150 firewall rules. If a client device requires more than 150 rules, then multiple profiles must be assigned to it.
 
