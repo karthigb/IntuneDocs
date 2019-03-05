@@ -32,9 +32,9 @@ Specifies the network type to which the rule belongs: Domain, Private, or Public
 
 Control connections for an app or program. Apps and programs can be specified either file path, or package family name.
 
-The file path of an app is simply its location on the client device. For example, C:\Windows\System\Notepad.exe. [Learn more](https://aka.ms/intunefirewallfilepathrule)
+The file path of an app is simply its location on the client device. For example, *C:\Windows\System\Notepad.exe*. [Learn more](https://aka.ms/intunefirewallfilepathrule)
 
-Package family names can be retrieved by running the Get-AppxPackage command from PowerShell. [Learn more](https://aka.ms/AppXPackageNameFromPowerShell)
+Package family names can be retrieved by running the *Get-AppxPackage* command from PowerShell. [Learn more](https://aka.ms/AppXPackageNameFromPowerShell)
 
 Windows service short names are used in cases when a service, not an application, is sending or receiving traffic. [Learn more](https://aka.ms/intunefirewallservicenamerule)
 
@@ -46,13 +46,13 @@ Default is Any. [Learn more](https://aka.ms/intunefirewallprotocolrule)
 
 **Local ports**
 
-Comma separated list of ranges. For example, 100-120,200,300-320.
+Comma separated list of ranges. For example, *100-120*,*200*,*300-320*.
 
 Default is All. [Learn more](https://aka.ms/intunefirewalllocalportrule)
 
 **Remote ports**
 
-Comma separated list of ranges. For example, 100-120,200,300-320.
+Comma separated list of ranges. For example, *100-120*,*200*,*300-320*.
 
 Default is All. [Learn more](https://aka.ms/intunefirewallremoteportrule)
 
@@ -60,7 +60,7 @@ Default is All. [Learn more](https://aka.ms/intunefirewallremoteportrule)
 
 Comma separated list of local addresses covered by the rule. Valid tokens include:
 
-+ &#42; indicates any local address. If present, this must be the only token included.
++ *&#42;* indicates any local address. If present, this must be the only token included.
 + A subnet can be specified using either the subnet mask or network prefix notation. If neither a subnet mask not a network prefix is specified, the subnet mask defaults to 255.255.255.255.
 + A valid IPv6 address.
 + An IPv4 address range in the format of "start address - end address" with no spaces included.
@@ -72,7 +72,7 @@ Default is Any address. [Learn more](https://aka.ms/intunefirewalllocaladdressru
 
 List of comma separated tokens specifying the remote addresses covered by the rule. Tokens are case insensitive. Valid tokens include:
 
-+ &#42; indicates any remote address. If present, this must be the only token included.
++ *&#42;* indicates any remote address. If present, this must be the only token included.
 + Defaultgateway
 + DHCP
 + DNS
