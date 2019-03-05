@@ -106,3 +106,4 @@ Specifies the list of authorized local users for this rule. **A list of authoriz
 Default is all users. [Learn more](https://aka.ms/intunefirewallauthorizedusers)
 
 ### Configuring firewall rules programatically
+Coming soon
