@@ -30,7 +30,7 @@ Specifies whether this rule should block or allow network traffic. If left Not c
 
 Specifies the network type to which the rule belongs: Domain, Private, or Public. If left Not configured, the rule applies to all network types.
 
-**Application**
+#### Application
 
 Control connections for an app or program. Apps and programs can be specified either file path, or package family name.
 
