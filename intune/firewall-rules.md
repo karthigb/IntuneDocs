@@ -1,6 +1,6 @@
 # Windows Defender Firewall Rules
 
-## Configure firewall rules from the Intune console.
+### Configuring firewall rules from Intune
 
 To get started, open the *Device Configuration* workload,then create a new profile. Choose *Windows 10* as the platform, and *Endpoint Protection* as the profile type. Select the Windows Defender Firewall chevron. Add a firewall rule to this new *Endpoint Protection* profile using the *Add* button at the bottom of the blade.
 
@@ -8,7 +8,7 @@ To get started, open the *Device Configuration* workload,then create a new profi
 
 **Important!** A single *Endpoint Protection* profile may contain up to a maximum of 150 firewall rules. If a client device requires more than 150 rules, then multiple profiles must be assigned to it.
 
-## Firewall rule components
+### Firewall rule components
 
 **Name**
 
@@ -104,3 +104,5 @@ New rules have the EdgeTraversal property disabled by default. [Learn more](http
 Specifies the list of authorized local users for this rule. **A list of authorized users cannot be specified if the rule being authored is targeting a Windows service.**
 
 Default is all users. [Learn more](https://aka.ms/intunefirewallauthorizedusers)
+
+### Configuring firewall rules programatically
