@@ -40,25 +40,25 @@ Package family names can be retrieved by running the *Get-AppxPackage* command f
 
 Windows service short names are used in cases when a service, not an application, is sending or receiving traffic. [Learn more](https://aka.ms/intunefirewallservicenamerule)
 
-**Protocol**
+#### Protocol
 
 Select the protocol for this port rule. Transport layer protocols - TCP and UDP – allow you to specify ports or port ranges. For custom protocols, enter a number between 0 and 255 representing the IP protocol.
 
 Default is Any. [Learn more](https://aka.ms/intunefirewallprotocolrule)
 
-**Local ports**
+#### Local ports
 
 Comma separated list of ranges. For example, *100-120*,*200*,*300-320*.
 
 Default is All. [Learn more](https://aka.ms/intunefirewalllocalportrule)
 
-**Remote ports**
+#### Remote ports
 
 Comma separated list of ranges. For example, *100-120*,*200*,*300-320*.
 
 Default is All. [Learn more](https://aka.ms/intunefirewallremoteportrule)
 
-**Local addresses**
+#### Local addresses
 
 Comma separated list of local addresses covered by the rule. Valid tokens include:
 
@@ -70,7 +70,7 @@ Comma separated list of local addresses covered by the rule. Valid tokens includ
 
 Default is Any address. [Learn more](https://aka.ms/intunefirewalllocaladdressrule)
 
-**Remote addresses**
+#### Remote addresses
 
 List of comma separated tokens specifying the remote addresses covered by the rule. Tokens are case insensitive. Valid tokens include:
 
@@ -91,7 +91,7 @@ List of comma separated tokens specifying the remote addresses covered by the ru
 
 Default is Any address. [Learn more](https://aka.ms/intunefirewallremoteaddressrule)
 
-**Edge traversal**
+#### Edge traversal
 
 Indicates whether edge traversal is enabled or disabled for this rule.
 
@@ -99,7 +99,7 @@ The EdgeTraversal setting indicates that specific inbound traffic is allowed to 
 
 New rules have the EdgeTraversal property disabled by default. [Learn more](https://aka.ms/intunefirewalledgetraversal)
 
-**Authorized users**
+#### Authorized users
 
 Specifies the list of authorized local users for this rule. **A list of authorized users cannot be specified if the rule being authored is targeting a Windows service.**
 
