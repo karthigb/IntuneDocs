@@ -116,7 +116,8 @@ When you delete a profile, or you remove a device from a group that has the prof
 - Wi-Fi, VPN, certificate, and email profiles: These profiles are removed from all supported enrolled devices.
 - All other profile types:  
 
-  - **Windows and Android devices**: Settings aren't removed from the device
+  - **Windows devices**: Settings are removed from the device
+  - **Android devices**: Settings aren't removed from the device
   - **Windows Phone 8.1 devices**: The following settings are removed:  
   
     - Require a password to unlock mobile devices
